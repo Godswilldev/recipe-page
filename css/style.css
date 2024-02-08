@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  /* This will make 10px = 1rem */
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+h1 {
+  font-family: "Outfit", sans-serif;
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+}
+
+h3 {
+  font-family: "Outfit", sans-serif;
+  font-family: "Young Serif", serif;
+  color: hsl(332, 51%, 32%);
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  width: 40rem;
+  height: 85vh;
+  border-radius: 1rem;
+  padding: 2rem;
+
+  /* Absolute Center */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container__img {
+}
+.container__img img {
+  width: 100%;
+  border-radius: 1rem;
+}
